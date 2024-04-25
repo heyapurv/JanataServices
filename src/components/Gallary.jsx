@@ -10,7 +10,8 @@ import img8 from '../../public/i8.png'
 3
 export default () => {
   return (
-    <Carousel loop={true} autoplay={true} className="rounded-xl">
+
+      <Carousel loop={true} autoplay={true} className="rounded-xl shadow-2xl ">
       <img
         src={img1}
         alt="image 1"
@@ -53,5 +54,6 @@ export default () => {
       />
      
     </Carousel>
+
   );
 }

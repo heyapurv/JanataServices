@@ -24,28 +24,35 @@ export default () => {
         },
         {
             title: "Daily Needs ",
-            desc: "According to him, â€œI'm still surprised that this has happened. But we are surprised because we are so surprised.â€More revelations about Whittington will be featured in the film",
             img: "https://images.unsplash.com/photo-1545601445-4d6a0a0565f0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
             href: "javascript:void(0)"
         },
         {
             title: "Emergency Service ",
-            desc: "According to him, â€œI'm still surprised that this has happened. But we are surprised because we are so surprised.â€More revelations about Whittington will be featured in the film",
             img: "https://images.unsplash.com/photo-1635247187021-ad5ab658bc5e?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
             href: "javascript:void(0)"
         },
         {
             title: "Home Services ",
-            desc: "According to him, â€œI'm still surprised that this has happened. But we are surprised because we are so surprised.â€More revelations about Whittington will be featured in the film",
             img: "https://images.unsplash.com/photo-1505798577917-a65157d3320a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
             href: "javascript:void(0)"
         },
         {
             title: "Wedding ",
-            desc: "According to him, â€œI'm still surprised that this has happened. But we are surprised because we are so surprised.â€More revelations about Whittington will be featured in the film",
             img: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8V2VkZGluZ3xlbnwwfHwwfHx8MA%3D%3D", 
             href: "javascript:void(0)"
         },
+        {
+            title: "Wedding ",
+            img: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8V2VkZGluZ3xlbnwwfHwwfHx8MA%3D%3D", 
+            href: "javascript:void(0)"
+        },
+        {
+            title: "Wedding ",
+            img: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8V2VkZGluZ3xlbnwwfHwwfHx8MA%3D%3D", 
+            href: "javascript:void(0)"
+        },
+       
        
        
     ]
