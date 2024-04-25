@@ -17,7 +17,7 @@ export default () => {
     return (
         <>
           
-            <section className="my-20 mx-auto md:mx-16 pb-4 px-4 items-center lg:flex md:px-8">
+            <section className="md:my-20 my-10 mx-auto md:mx-16 pb-4 px-4 items-center lg:flex md:px-8">
                 <div className="space-y-4 flex-1 sm:text-center lg:text-left">
                     <h1 className="text-purple-700 font-bold text-4xl xl:text-6xl drop-shadow-lg">
                        Janata Services 
