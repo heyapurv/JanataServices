@@ -64,7 +64,7 @@ export default () => {
                     Our Services
                 </h1>
                 <p className="mt-3 text-gray-500">
-                    Blogs that are loved by the community. Updated every hour.
+                   We Provide different variety of services.
                 </p>
             </div>
             <div className="mt-12 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
