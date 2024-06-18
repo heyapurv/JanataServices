@@ -58,7 +58,7 @@ export default () => {
     ]
 
     return (
-        <footer className="text-white bg-purple-700 px-4 py-5  md:px-8  rounded-2xl mt-5 mx-3 mb-3">
+        <footer className="text-gray-800 bg-gray-100 px-4 py-5  md:px-8  rounded-2xl mt-5 mx-3 mb-3">
             <div className="gap-6 justify-between md:flex md:mx-10">
                 <div className="flex-1">
                     <div className="max-w-xs">
@@ -81,7 +81,7 @@ export default () => {
                                 className="space-y-4"
                                 key={idx}
                             >
-                                <h4 className="text-white underline text-md font-bold">
+                                <h4 className="text-gray-800 underline text-md font-bold">
                                     { item.label }
                                 </h4>
                                 {

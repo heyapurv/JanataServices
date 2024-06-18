@@ -1,16 +1,19 @@
 import React from 'react'
 import Hero from './Hero'
 import Services from './Services'
+import Bento from './Bento'
 function MainPage() {
   return (
    <>
     
-    <div className='bg-gray-100 mx-4 py-5 mt-5 rounded-lg '>
+    <div className=' mx-4 py-5 mt-5 rounded-lg '>
       <Hero/>
-      </div>
-      <div className='bg-gray-100 mx-4 py-5 mt-5 rounded-lg'>
-      <Services/>
-      </div>
+    </div>
+      <Bento/>
+    
+      {/* <Services/> */}
+      
+
     
    </>
   )

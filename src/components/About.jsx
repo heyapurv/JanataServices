@@ -14,7 +14,7 @@ export default () => {
                                 Cell phone usage has surged in recent years, replacing landline phones in households. This growth has led to the app culture, offering entertainment, information, and services. Our app connects service providers with users, supporting local businesses and providing quick access to information. It aims to simplify tasks and make services easily accessible.
                             </p>
                         </blockquote>
-                        <figcaption className="mt-4 text-gray-600 text-lg mt-5">
+                        <figcaption className=" text-gray-600 text-lg mt-5">
                         <span className="bg-yellow-200 px-3 rounded-md shadow-2xl shadow-yellow-300 py-3">    "If you are busy, Make it easy"</span>
                         </figcaption>
                         <div className="mt-10">
