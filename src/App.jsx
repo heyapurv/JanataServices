@@ -15,6 +15,7 @@ import Shop from './components/services/Shop'
 import Construction from './components/services/Construction'
 import Transportation from './components/services/Transportation'
 import ProfessionalServices from './components/services/ProfessionalServices'
+import Automobile from './components/services/Automobile'
 
 function App() {
  
@@ -35,6 +36,7 @@ function App() {
            <Route path="/construction" element ={<Construction/>}></Route>
            <Route path="/professionalservices" element ={<ProfessionalServices/>}></Route>
            <Route path="/transportation" element ={<Transportation/>}></Route>
+           <Route path="/automobile" element ={<Automobile/>}></Route>
          </Routes>
       <Footer/>
     </>

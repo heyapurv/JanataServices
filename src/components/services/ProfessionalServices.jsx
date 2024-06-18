@@ -3,101 +3,181 @@ import React from 'react'
 const ProfessionalServices = () => {
   return (
     <div>
-          <section class="bg-center bg-no-repeat bg-[url('https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGZvb2R8ZW58MHx8MHx8fDA%3D')] bg-gray-700 bg-blend-multiply h-[600px] ">
-        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 ">
-          <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">ALL FOR ONE, ONE FOR ALL</h1>
-          <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">To Provide a comprehensive overview of the various areas of legal services and addressing a wide range of IT services and also give a information about the services regarding Financial Advisory. This encompasses the range of services aimed at helping clients manage their works and to provide the services to the customers by the people who are professionally skilled in their work. This includes many other services too.  </p>
-          <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-            <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-              Get started
-              <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-              </svg>
-            </a>
-            <a href="#" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
-              Order Now!!
-            </a>
+        <div className="bg-white">
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex justify-between items-center">
+          <div className="text-2xl font-bold">
+            <h1 className="mb-2">Professional-Services</h1>
+            <p className="text-gray-600 text-sm">Janata Services</p>
+          </div>
+          <div className="flex space-x-4">
+            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
+              <i className="fas fa-share-alt"></i>
+            </button>
+            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
+              <i className="fas fa-bookmark"></i>
+            </button>
+            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
+              <i className="fas fa-ellipsis-v"></i>
+            </button>
           </div>
         </div>
-      </section>
-
-      {/* Card */}
-      <div className="container mx-auto p-4 justify-center ">
-        <h1 className="text-3xl font-bold mb-4 text-center">Professional Services</h1>
-        <div className="grid grid-cols-3 gap-4">
-          {/* Manual Labour */}
-          <div className="bg-yellow-300 rounded-lg p-4 justify-center ">
-            {/* <img src={logo} alt="" className='rounded-full w-40 h-30 pb-7' /> */}
-            <h2 className="text-xl font-bold mb-2">Legal services</h2>
-            <ul >
-              <li >- Corporate Law</li>
-              <li>- Bankruptcy Law</li>
-              <li>- Consumer Protection Law</li>
-              <li>- Tax Law</li>
-              <li>More</li>
-            </ul>
+        <div className="flex justify-between items-center mt-8">
+          <div className="flex items-center space-x-4">
+            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
+              <i className="fas fa-search"></i>
+            </button>
+            <input
+              type="text"
+              className="bg-gray-100 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder="Search All Category"
+            />
+             <button className="bg-blue-500 text-white font-medium py-2 px-4 rounded-md hover:bg-blue-600">
+               Search
+            </button>
           </div>
-
-          {/* Machinery Suppliers */}
-          <div className="bg-yellow-300 rounded-lg p-4">
-            <h2 className="text-xl font-bold mb-2">IT Services</h2>
-            <ul>
-              <li>- Software Services</li>
-              <li>- Cyber Security Services</li>
-              <li>- Cloud Services</li>
-              <li>- IT training and education</li>
-              <li>- IoT Services</li>
-              <li>- Digital Workplace Solutions</li>
-              <li>More</li>
-            </ul>
-          </div>
-
-          {/* Material Supplier */}
-          <div className="bg-yellow-300 rounded-lg p-4">
-            <h2 className="text-xl font-bold mb-2">Financial Advisory</h2>
-            <ul>
-              <li>- Investment Advisory</li>
-              <li>- Tax Advisory</li>
-              <li>- Estate and Trust advisory</li>
-              <li>- Insurance Advisory</li>
-              <li>More</li>
-            </ul>
+          <div className="flex items-center space-x-4">
+            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
+              <i className="fas fa-language"></i>
+              EN
+            </button>
+            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
+              <i className="fas fa-ad"></i>
+              Advertise
+            </button>
+            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
+              <i className="fas fa-list"></i>
+              Business
+              Listing
+            </button>
           </div>
         </div>
 
-        {/* Other Categories */}
-        <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mt-4 w-full">
-          Other Categories...
-        </button>
-
-        {/* Descriptions */}
-        <div className="mt-8">
-          <h3 className="text-xl font-bold mb-2">Legal Services:</h3>
-          <p className="text-gray-600">
-           Assistance in the formation of corporations, partnerships and your taxes and information regarding consumer protection laws. Handling the dispute regarding taxes and bankruptcy. Providing the information about consumer protection law and to provide the legal services to the client.
-          </p>
-        </div>
-
-        <div className="mt-4">
-          <h3 className="text-xl font-bold mb-2">IT Services:</h3>
-          <p className="text-gray-600">
-            To Provide the services regarding the IT sector such as Software Services, Designing and developing software tailored to the specific needs of an organization and individual. To provide the training and education regarding the IT industry. To provide the Iot services to the customer and to provide the digital solution over it.
-          </p>
-        </div>
-
-        <div className="mt-4">
-          <h3 className="text-xl font-bold mb-2">Financial Advisory:</h3>
-          <p className="text-gray-600">
-          Creating and managing the advisory regarding the financial information regarding the investments, taxes, insurances and estate and trust. To provide the services regarding the investment plans or to provide the education in this sector so that people can understant the finance. We provide the transparency in our sector.
-          </p>
-        </div>
-
-        {/* Many More */}
-        <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mt-4 w-full">
-          Many more...
-        </button>
+      <div className="mt-20">
+      <img
+       src="https://streamradioytv.buap.mx/images/dia-del-trabajador-1682700526015.jpg"
+       alt="Home Decor"
+       className="w-full h-64 object-cover rounded-lg"
+       />
       </div>
 
+       <div className="mt-16 grid grid-cols-3 gap-8">
+         <a href="#" className="bg-gray-100 rounded-lg p-4 text-center">
+         <i className="fas fa-couch fa-2x text-blue-500"></i>
+         <h3 className="mt-4 text-lg font-semibold text-blue-500">Legal Services</h3>
+         </a>
+        <a href="#" className="bg-gray-100 rounded-lg p-4 text-center">
+        <i className="fas fa-home fa-2x text-blue-500"></i>
+        <h3 className="mt-4 text-lg font-semibold text-blue-500">IT Services</h3>
+        </a>
+        <a href="#" className="bg-gray-100 rounded-lg p-4 text-center">
+        <i className="fas fa-lightbulb fa-2x text-blue-500"></i>
+        <h3 className="mt-4 text-lg font-semibold text-blue-500">Fianancial Advisory</h3>
+        </a>
+      </div>
+
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold mb-4">Popular Categories</h2>
+          <p className="text-gray-600">
+          Lawyers (Attorneys)|Paralegals|Legal Consultants|Legal Advisors|
+          Certified Public Accountants (CPAs)|Financial Advisors|Tax Consultants
+          Auditors|Management Consultants|IT Consultants|Strategy Consultants
+          HR Consultants|Physicians (Doctors)|Surgeons|Dentists|Psychologists
+          Therapists|Civil Engineers|Mechanical Engineers|Electrical Engineers|
+          Structural Engineers|Architects|Urban Planners|Landscape Architects
+          Software Developers|IT Consultants|Network Engineers|Cybersecurity Experts
+          Marketing Consultants|Advertising Executives|Branding Specialists|Market Researchers
+          Teachers|Tutors|Trainers|Educational Consultants|Real Estate Agents
+          Property Managers|Appraisers|Real Estate Consultants
+          </p>
+        </div>
+
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold mb-4">Follow us on</h2>
+          <div className="flex space-x-4">
+            <a href="#" className="bg-gray-200 rounded-full p-2">
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" className="bg-gray-200 rounded-full p-2">
+              <i className="fab fa-youtube"></i>
+            </a>
+            <a href="#" className="bg-gray-200 rounded-full p-2">
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a href="#" className="bg-gray-200 rounded-full p-2">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" className="bg-gray-200 rounded-full p-2">
+              <i className="fas fa-times"></i>
+            </a>
+          </div>
+        </div>
+
+        {/* <div className="mt-16">
+          <h2 className="text-2xl font-bold mb-4">Explore JD Collections</h2>
+          <p className="text-gray-600">
+             Lawyers (Attorneys)|Paralegals|Legal Consultants|Legal Advisors|
+             Certified Public Accountants (CPAs)|Financial Advisors|Tax Consultants|
+             Auditors|Management Consultants|IT Consultants|Strategy Consultants|
+             HR Consultants|Physicians (Doctors)|Surgeons|Dentists|Psychologists|
+             Therapists
+          </p>
+        </div> */}
+
+        {/* <div className="mt-16 grid grid-cols-2 gap-8">
+          <div>
+            <h2 className="text-2xl font-bold mb-4">Quick Links</h2>
+            <ul className="list-disc pl-4 text-gray-600">
+              <li>About us</li>
+              <li>Professional Business</li>
+              <li>We're hiring</li>
+              <li>Customer Care</li>
+              <li>Free Listing</li>
+              <li>What's New</li>
+            </ul>
+          </div>
+          <div>
+            <ul className="list-disc pl-4 text-gray-600">
+              <li>Advertise</li>
+              <li>Media</li>
+              <li>Testimonials</li>
+              <li>Feedback</li>
+              <li>Business Badge</li>
+            </ul>
+          </div>
+        </div> */}
+
+        {/* <div className="mt-16">
+          <h2 className="text-2xl font-bold mb-4">Jd Verticals</h2>
+          <div className="grid grid-cols-3 gap-8">
+            <ul className="list-disc pl-4 text-gray-600">
+              <li>B2B</li>
+              <li>Legal Services</li>
+              <li>Seasonal Services</li>
+              <li>Caterers, Wedding Planners</li>
+            </ul>
+            <ul className="list-disc pl-4 text-gray-600">
+              <li>All India</li>
+              <li>Service Providers</li>
+              <li>Shopkeepers</li>
+              <li>Tutors</li>
+            </ul>
+            <ul className="list-disc pl-4 text-gray-600">
+              <li>Financial Consultant</li>
+              <li>Digital Service Providers</li>
+              <li>Real Estate Agents</li>
+              <li>Other Services</li>
+            </ul>
+          </div>
+        </div> */}
+
+        <div className="mt-16 text-center text-gray-600">
+          <p>Copyrights 2008-24. All Rights Reserved. <a href="#">Privacy</a> | <a href="#">Terms</a> | <a href="#">Infringement</a></p>
+        </div>
+      </div>
+    </div>
+
+     
     </div>
   )
 }

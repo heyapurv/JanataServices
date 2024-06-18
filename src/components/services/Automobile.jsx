@@ -1,20 +1,18 @@
-import React from "react";
+import React from 'react'
 
-const Food = () => {
+const Automobile = () => {
   return (
-    <>
-       <div className="bg-white">
+    <div>
+      <div className="bg-white">
       <div className="container mx-auto px-4 py-8">
-      
-
-        <section className="bg-center bg-no-repeat bg-[url('https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGZvb2R8ZW58MHx8MHx8fDA%3D')] bg-gray-500 bg-blend-multiply  h-[500px] sm:h-[400px] lg:h-[600px] ">
+        <section className="bg-center bg-no-repeat bg-[url('https://images.unsplash.com/photo-1631972241361-330c704b90f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-gray-500 bg-blend-multiply  h-[300px] sm:h-[400px] lg:h-[500px] ">
   <div className="bg-gradient-to-b from-transparent to-gray-900 h-full">
     <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
       <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-        Delicious Variety Of Foods 
+        AutoMobile Services 
       </h1>
       <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-      Indian cuisine is a vibrant blend of spices and regional diversity. Enjoy North India's rich butter chicken, South India's tangy dosas, East India's fish curry, and West India's spicy Goan dishes. Savor street food like chaat and vada pav, and indulge in sweets like gulab jamun and jalebi. Every meal is a sensory feast!
+        We service all types of vehicles, from cars and trucks to SUVs and motorcycles. Whether you need routine maintenance like oil changes or more complex repairs, our qualified technicians can get you back on the road quickly.
       </p>
       <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
         <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
@@ -34,43 +32,43 @@ const Food = () => {
       
 {/* Card */}
 <div className="container mx-auto p-4 justify-center">
-  <h1 className="text-black text-3xl font-bold mb-4 text-center">Food Categories</h1>
+  <h1 className="text-black text-3xl font-bold mb-4 text-center">Automobile Services Categories</h1>
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
     {/* Vehicle Sales */}
     <div className="bg-gray-200 rounded-lg p-4 flex flex-col items-center">
-      <img src="https://wallpapers.com/images/featured-full/indian-food-x2tv62mgy6kq4or3.jpg" alt="Vehicle Sales" className="w-48 h-36 pb-7" />
-      <h2 className="text-xl font-bold mb-2 text-black">Indian Food</h2>
+      <img src="https://plus.unsplash.com/premium_photo-1661956487605-1544bcd9b29e?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Vehicle Sales" className="w-48 h-36 pb-7" />
+      <h2 className="text-xl font-bold mb-2 text-black">Vehicle Sales</h2>
       <ul className="text-center text-black">
-        <li><a href="#">- Jain</a></li>
-        <li><a href="#">- Dhaba</a></li>
-        <li><a href="#">- Biryani</a></li>
-        <li><a href="#">- Pure Veg</a></li>
+        <li><a href="#">- Pre-Sale Inspection</a></li>
+        <li><a href="#">- Detailing and Reconditioning</a></li>
+        <li><a href="#">- Vehicle History Report</a></li>
+        <li><a href="#">- Marketing and Advertisement</a></li>
         <li><a href="#">More</a></li>
       </ul>
     </div>
 
     {/* Vehicle Maintenance and Repair */}
     <div className="bg-gray-200 rounded-lg p-4 flex flex-col items-center">
-      <img src="https://cdn.promptden.com/images/99ba8ffc-3346-4586-abd7-b07fdd11143a.webp?class=standard" alt="Modern Cuisines" className="w-48 h-36 pb-7" />
-      <h2 className="text-xl font-bold mb-2 text-black">Modern Cuisines</h2>
+      <img src="https://plus.unsplash.com/premium_photo-1663090144512-3d150b6c5561?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Vehicle Maintenance and Repair" className="w-48 h-36 pb-7" />
+      <h2 className="text-xl font-bold mb-2 text-black">Vehicle Maintenance and Repair</h2>
       <ul className="text-center text-black">
-        <li><a href="#">- Italian</a></li>
-        <li><a href="#">- Afghani</a></li>
-        <li><a href="#">- Chinese</a></li>
-        <li><a href="#">- Continental</a></li>
+        <li><a href="#">- Oil Change and Filter Replacement</a></li>
+        <li><a href="#">- Tire Services</a></li>
+        <li><a href="#">- Fluid Top-Off and Inspection</a></li>
+        <li><a href="#">- Multi-Point Inspection</a></li>
         <li><a href="#">More</a></li>
       </ul>
     </div>
 
     {/* Vehicle Rental Services */}
     <div className="bg-gray-200 rounded-lg p-4 flex flex-col items-center">
-      <img src="https://thekitchencommunity.org/wp-content/uploads/2021/10/indian-shutterstock_295395848.jpg" alt="Deserts" className="w-48 h-36 pb-7" />
-      <h2 className="text-xl font-bold mb-2 text-black">Deserts</h2>
+      <img src="https://images.unsplash.com/photo-1590504805643-bb1f94cde7fd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dHJhaWxlciUyMHRydWNrfGVufDB8fDB8fHww" alt="Vehicle Rental Services" className="w-48 h-36 pb-7" />
+      <h2 className="text-xl font-bold mb-2 text-black">Vehicle Rental Services</h2>
       <ul className="text-center text-black ">
-        <li><a href="#">- Sweets</a></li>
-        <li><a href="#">- Cupcakes</a></li>
-        <li><a href="#">- Brownies</a></li>
-        <li><a href="#">- Muffins</a></li>
+        <li><a href="#">- Wide Variety of Vehicles</a></li>
+        <li><a href="#">- Flexible Rental Options</a></li>
+        <li><a href="#">- Convenient Pick-Up and Drop-Off</a></li>
+        <li><a href="#">- 24/7 Roadside Assistance</a></li>
         <li><a href="#">More</a></li>
       </ul>
     </div>
@@ -87,25 +85,25 @@ const Food = () => {
 <div className="flex flex-col space-y-8">
   {/* Vehicle Sales */}
   <div className="bg-white shadow-md p-4 rounded">
-    <h3 className="text-black text-xl font-bold mb-2">Indian Food</h3>
+    <h3 className="text-black text-xl font-bold mb-2">Vehicle Sales</h3>
     <p className="text-gray-600">
-    Indian cuisine is a vibrant blend of spices and regional diversity. Enjoy North India's rich butter chicken, South India's tangy dosas, East India's fish curry, and West India's spicy Goan dishes. Savor street food like chaat and vada pav, and indulge in sweets like gulab jamun and jalebi. Every meal is a sensory feast!
+      Sell your car faster and with confidence! We offer pre-sale inspections, professional detailing, and vehicle history reports to showcase your cars condition.  Let us handle the marketing to reach a wider audience of potential buyers.
     </p>
   </div>
 
   {/* Vehicle Maintenance and Repair */}
   <div className="bg-white shadow-md p-4 rounded">
-    <h3 className="text-black text-xl font-bold mb-2">Modern Cuisines</h3>
+    <h3 className="text-black text-xl font-bold mb-2">Vehicle Maintenance and Repair</h3>
     <p className="text-gray-600">
-    Modern cuisine blends traditional flavors with innovative techniques, focusing on fresh ingredients, artistic presentation, and fusion influences. It offers a dynamic, sensory dining experience that redefines culinary boundaries.
+      Keep your car running smoothly! We offer routine maintenance like oil changes and tire rotations, along with expert repairs for all vehicle types by our certified technicians. Schedule your service online today! 
     </p>
   </div>
 
   {/* Vehicle Rental Services */}
   <div className="bg-white shadow-md p-4 rounded">
-    <h3 className="text-black text-xl font-bold mb-2">Deserts</h3>
+    <h3 className="text-black text-xl font-bold mb-2">Vehicle Rental Services</h3>
     <p className="text-gray-600">
-    Desserts are sweet treats that delight the senses. From creamy cakes and pastries to rich chocolates and fruity delights, they offer a perfect end to any meal. Enjoy classics like ice cream, pies, and cookies, each crafted to satisfy your sweet cravings.
+      Find your perfect ride! We offer a wide variety of cars, trucks, and SUVs for daily, weekly, or monthly rentals.  Choose convenient pick-up and drop-off options, and enjoy peace of mind with 24/7 roadside assistance.  Book your adventure today!
     </p>
   </div>
 </div>
@@ -160,71 +158,12 @@ const Food = () => {
           </div>
         </div>
 
-        {/* <div className="mt-16">
-          <h2 className="text-2xl font-bold mb-4">Explore JD Collections</h2>
-          <p className="text-gray-600">
-            Travel & Tourism | Beauty & Fashion | Health & Fitness | Food & Beverage | Finance | On demand Services | Home & Living | Education & Career |
-            Recreation
-          </p>
-        </div> 
-        }
+        
 
-        { <div className="mt-16 grid grid-cols-2 gap-8">
-          <div>
-            <h2 className="text-2xl font-bold mb-4">Quick Links</h2>
-            <ul className="list-disc pl-4 text-gray-600">
-              <li>About us</li>
-              <li>Investor Relations</li>
-              <li>We are hiring</li>
-              <li>Customer Care</li>
-              <li>Free Listing</li>
-              <li>Whats New</li>
-              <li>Report a Bug</li>
-            </ul>
-          </div>
-          <div>
-            <ul className="list-disc pl-4 text-gray-600">
-              <li>Advertise</li>
-              <li>Media</li>
-              <li>Testimonials</li>
-              <li>Feedback</li>
-              <li>Business Badge</li>
-              <li>Jd Curated list</li>
-            </ul>
-          </div>
-        </div> }
-
-        { <div className="mt-16">
-          <h2 className="text-2xl font-bold mb-4">Jd Verticals</h2>
-          <div className="grid grid-cols-3 gap-8">
-            <ul className="list-disc pl-4 text-gray-600">
-              <li>B2B</li>
-              <li>Doctors</li>
-              <li>Colleges</li>
-              <li>Hotels</li>
-            </ul>
-            <ul className="list-disc pl-4 text-gray-600">
-              <li>All India</li>
-              <li>Hospitals</li>
-              <li>AC Repair</li>
-              <li>Real Estate</li>
-            </ul>
-            <ul className="list-disc pl-4 text-gray-600">
-              <li>Restaurants</li>
-              <li>Schools</li>
-              <li>Car Services</li>
-              <li>Bills & Recharge</li>
-            </ul>
-          </div>
-        </div> */}
-
-        <div className="mt-16 text-center text-gray-600">
-          <p>Copyrights 2008-24. All Rights Reserved. <a href="#">Privacy</a> | <a href="#">Terms</a> | <a href="#">Infringement</a></p>
-        </div>
       </div>
     </div>
-    </>
-  );
-};
+    </div>
+  )
+}
 
-export default Food;
+export default Automobile

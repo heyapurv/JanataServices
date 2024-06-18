@@ -42,7 +42,7 @@ const ServiceIcons = () => {
     {
       url: transport,
       title: "Transport",
-      href: "/transport",
+      href: "/transportation",
     },
     {
       url: agriculture,
@@ -57,12 +57,12 @@ const ServiceIcons = () => {
     {
       url: automobile,
       title: "Automobile",
-      href: "/transport",
+      href: "/automobile",
     },
     {
       url: shops,
       title: "Shops",
-      href: "/transport",
+      href: "/shop",
     },
     {
       url: education,
@@ -72,7 +72,7 @@ const ServiceIcons = () => {
     {
       url: professional,
       title: "Professional",
-      href: "/transport",
+      href: "/professionalservices",
     },
   ];
   return (
