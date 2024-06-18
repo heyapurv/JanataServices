@@ -1,7 +1,7 @@
 export default () => {
 
     return (
-        <main className="py-14 bg-gray-200 rounded-lg md:m-10 ">
+        <main className="py-14  rounded-lg md:m-10 ">
             <div className="md:w-3/6  md:mx-auto px-4 text-gray-600 md:px-8 border border-gray-400 md:py-5 rounded-3xl mx-5 py-5">
                 <div className="max-w-lg mx-auto space-y-3 sm:text-center">
                     <h3 className="text-purple-600 font-semibold">
