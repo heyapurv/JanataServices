@@ -3,101 +3,124 @@ import React from 'react'
 const Emergency = () => {
   return (
     <>
-      <section class="bg-center bg-no-repeat bg-[url('https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGZvb2R8ZW58MHx8MHx8fDA%3D')] bg-gray-700 bg-blend-multiply h-[600px] ">
-        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 ">
-          <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">ALL FOR ONE, ONE FOR ALL</h1>
-          <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Indian cuisine is a vibrant blend of spices and regional diversity. Enjoy North India's rich butter chicken, South India's tangy dosas, East India's fish curry, and West India's spicy Goan dishes. Savor street food like chaat and vada pav, and indulge in sweets like gulab jamun and jalebi. Every meal is a sensory feast!</p>
-          <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-            <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-              Get started
-              <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-              </svg>
-            </a>
-            <a href="#" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
-              Order Now
-            </a>
+      <div className="bg-white">
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex justify-between items-center">
+          <div className="text-2xl font-bold">
+            <h1 className="mb-2">Emergency Services</h1>
+            <p className="text-gray-600 text-sm">Janata Services</p>
+          </div>
+          
+        </div>
+        <div className="flex justify-between items-center mt-8">
+          <div className="flex items-center space-x-4">
+            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
+              <i className="fas fa-search"></i>
+            </button>
+            <input
+              type="text"
+              className="bg-gray-100 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder="Search All Category"
+            />
+             <button className="bg-blue-500 text-white font-medium py-2 px-4 rounded-md hover:bg-blue-600">
+               Search
+            </button>
+          </div>
+          <div className="flex items-center space-x-4">
+            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
+              <i className="fas fa-language"></i>
+              EN
+            </button>
+            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
+              <i className="fas fa-ad"></i>
+              Advertise
+            </button>
+            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
+              <i className="fas fa-list"></i>
+              Business
+              Listing
+            </button>
           </div>
         </div>
-      </section>
-      {/* Card */}
-      <div className="container mx-auto p-4 justify-center ">
-        <h1 className="text-3xl font-bold mb-4 text-center">Emergency Services</h1>
-        <div className="grid grid-cols-3 gap-4">
-          {/*Firefighting Services*/}
-          <div className="bg-yellow-300 rounded-lg p-4 justify-center ">
-            {/* <img src={logo} alt="" className='rounded-full w-40 h-30 pb-7' /> */}
-            <h2 className="text-xl font-bold mb-2">Firefighting Services</h2>
-            <ul >
-              <li >- Structural Firefighting</li>
-              <li>- Wildland Firefighting</li>
-              <li>- Aviation Firefighting</li>
-              <li>- Fire Inspections</li>
-              <li>More</li>
-            </ul>
-          </div>
-          {/* Ambulance Services */}
-          <div className="bg-yellow-300 rounded-lg p-4">
-            <h2 className="text-xl font-bold mb-2"> Ambulance Services</h2>
-            <ul>
-              <li>- Basic Life Support Ambulances</li>
-              <li>- Advanced Life Support Ambulances</li>
-              <li>- Air Ambulances</li>
-              <li>- ICU Ambulances</li>
-              <li>More</li>
-            </ul>
-          </div>
-          {/* Disaster Management Services */}
-          <div className="bg-yellow-300 rounded-lg p-4">
-            <h2 className="text-xl font-bold mb-2">Disaster Management Services</h2>
-            <ul>
-              <li>- Emergency Response</li>
-              <li>- Delivery of Relief Services</li>
-              <li>- Debris Removal and Clean-up</li>
-              <li>- Infrastructure Repai</li>
-              <li>More</li>
-            </ul>
-          </div>
-        </div>
-        {/* Other Categories */}
-        <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mt-4 w-full">
-          Other Categories...
-        </button>
-        {/* Descriptions */}
-        <div className="mt-8">
-          <h3 className="text-xl font-bold mb-2">Firefighting Services:</h3>
-          <p className="text-gray-600">
-          Firefighting services act as guardians against blazes. 
-          They rush into emergencies to extinguish fires and rescue people trapped
-          within. Beyond fire trucks and hoses, these well-trained professionals
-          prevent fires through education and inspections. .
-          </p>
-        </div>
-        <div className="mt-4">
-          <h3 className="text-xl font-bold mb-2">Ambulance Services:</h3>
-          <p className="text-gray-600">
-          Ambulance services are lifelines in emergencies, rushing medical
-          care to those in need. There are different types: basic life
-          support ambulances with EMTs for initial care, and advanced life 
-          support ones with paramedics for more complex situations. 
-          </p>
-        </div>
-        <div className="mt-4">
-          <h3 className="text-xl font-bold mb-2">Disaster Management Services:</h3>
-          <p className="text-gray-600">
-          Disaster management services act like a shield before, during,
-          and after a disaster. They prepare communities by assessing
-          risks and educating residents. They respond with emergency aid,
-          search and rescue, and relief supplies. Finally, they help
-          communities rebuild infrastructure, homes, and lives.
-          </p>
-        </div>
-        {/* Many More */}
-        <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mt-4 w-full">
-          Many more...
-        </button>
+
+      <div className="mt-20">
+      <img
+       src="https://images.unsplash.com/photo-1638401607292-ba5ca538031e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGVtZXJnZW5jeSUyMHNlcnZpY2V8ZW58MHx8MHx8fDA%3D"
+       alt="Emergency Service"
+         style={{ height: 400, width: '100%' }}
+       className="w-full h-64 object-cover rounded-lg"
+       />
       </div>
-      {/* footer */}
+
+       <div className="mt-16 grid grid-cols-3 gap-8">
+         <a href="#" className="bg-gray-100 rounded-lg p-4 text-center">
+         <i className="fas fa-couch fa-2x text-blue-500"></i>
+         <h3 className="mt-4 text-lg font-semibold text-blue-500">Firefighting Services</h3>
+         </a>
+        <a href="#" className="bg-gray-100 rounded-lg p-4 text-center">
+        <i className="fas fa-home fa-2x text-blue-500"></i>
+        <h3 className="mt-4 text-lg font-semibold text-blue-500">Ambulance Services</h3>
+        </a>
+        <a href="#" className="bg-gray-100 rounded-lg p-4 text-center">
+        <i className="fas fa-lightbulb fa-2x text-blue-500"></i>
+        <h3 className="mt-4 text-lg font-semibold text-blue-500">Disaster Management Services</h3>
+        </a>
+        <a href="#" className="bg-gray-100 rounded-lg p-4 text-center">
+        <i className="fas fa-utensils fa-2x text-blue-500"></i>
+        <h3 className="mt-4 text-lg font-semibold text-blue-500">Emergency Medical Service</h3>
+        </a>
+        <a href="#" className="bg-gray-100 rounded-lg p-4 text-center">
+        <i className="fas fa-utensils fa-2x text-blue-500"></i>
+        <h3 className="mt-4 text-lg font-semibold text-blue-500">Rescue Service</h3>
+        </a>
+       {/* <a href="#" className="bg-gray-100 rounded-lg p-4 text-center">
+       <i className="fas fa-user-tie fa-2x text-blue-500"></i>
+       <h3 className="mt-4 text-lg font-semibold text-blue-500">Interior Designers</h3>
+       </a> */}
+      </div>
+
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold mb-4">Popular Categories</h2>
+          <p className="text-gray-600">
+            Body Massage Centres | Cinema Halls | Schools | Beauty Spas | Dermatologists | Hospitals | Malls | Gyms | Beauty Parlours | Estate Agents |
+            Banquet Halls | ENT Doctors | Book Shops | Bike On Rent |  Doctors | Neurologists | Gynaecologist & Obstetrician Doctors | Tiffin Services |
+            Travel Agents | Paying Guest Accommodations | General Physician Doctors | Dentists | Orthopaedic Doctors | Chemists | Motor Training Schools |
+            Gastroenterologists | Car Rental | Salons | Courier Services | Dance Classes | Pathology Labs | Taxi Services | Cake Shops | AC Repair & Services |
+            Mobile Phone Dealers | Pet Shops | Dmart | Packers And Movers | Psychiatrists | Dharamshalas | Urologist Doctors | Bakeries | Bicycle Dealers |
+            Coffee Shops | Paediatricians | Sonography Centres | Yoga Classes | Hostels | Cardiologists | Electrical Shops | Skin Care Clinics | Diagnostic Centres |
+            Homeopathic Doctors | Physiotherapists | Photo Studios | Plumbers | Music Classes | Electricians | Sports Goods Dealers | Shoe Dealers | Hair Stylists |
+            Gift Shops | Ophthalmologists | Car Repair & Services | Ayurvedic Doctors | Eye Clinics | Restaurants | Carpenters | Jewellery Showrooms |
+            Cooks On Hire | Stationery Shops | Nephrologists | Caterers | Interior Designers | Rehabilitation Center | Drug De Addiction Center | Grocery Stores |
+            AC Repair | Hotels | Cab & Car Rental | Spa & Salon | Car service | Lab Test | On Demand Service | JdSocial Blog | JD collections
+          </p>
+        </div>
+
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold mb-4">Follow us on</h2>
+          <div className="flex space-x-4">
+            <a href="#" className="bg-gray-200 rounded-full p-2">
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" className="bg-gray-200 rounded-full p-2">
+              <i className="fab fa-youtube"></i>
+            </a>
+            <a href="#" className="bg-gray-200 rounded-full p-2">
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a href="#" className="bg-gray-200 rounded-full p-2">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" className="bg-gray-200 rounded-full p-2">
+              <i className="fas fa-times"></i>
+            </a>
+          </div>
+        </div>
+
+       
+
+      </div>
+    </div>
+     
     </>
   )
 }
