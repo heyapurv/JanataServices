@@ -16,6 +16,9 @@ import Construction from './components/services/Construction'
 import Transportation from './components/services/Transportation'
 import ProfessionalServices from './components/services/ProfessionalServices'
 import Automobile from './components/services/Automobile'
+import Education from './components/services/Education'
+import Rental from './components/services/Rental'
+import Agriculture from './components/services/Agriculture'
 
 function App() {
  
@@ -37,6 +40,9 @@ function App() {
            <Route path="/professionalservices" element ={<ProfessionalServices/>}></Route>
            <Route path="/transportation" element ={<Transportation/>}></Route>
            <Route path="/automobile" element ={<Automobile/>}></Route>
+           <Route path="/education" element ={<Education/>}></Route>
+           <Route path="/rental" element ={<Rental/>}></Route>
+           <Route path="/agriculture" element ={<Agriculture/>}></Route>
          </Routes>
       <Footer/>
     </>

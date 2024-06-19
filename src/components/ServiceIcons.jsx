@@ -52,7 +52,7 @@ const ServiceIcons = () => {
     {
       url: rental,
       title: "Rent & Hire",
-      href: "/transport",
+      href: "/rental",
     },
     {
       url: automobile,
@@ -67,7 +67,7 @@ const ServiceIcons = () => {
     {
       url: education,
       title: "Educational",
-      href: "/transport",
+      href: "/education",
     },
     {
       url: professional,

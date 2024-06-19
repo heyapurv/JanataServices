@@ -5,43 +5,8 @@ const Emergency = () => {
     <>
       <div className="bg-white">
       <div className="container mx-auto px-4 py-8">
-        <div className="flex justify-between items-center">
-          <div className="text-2xl font-bold">
-            <h1 className="mb-2">Emergency Services</h1>
-            <p className="text-gray-600 text-sm">Janata Services</p>
-          </div>
-          
-        </div>
-        <div className="flex justify-between items-center mt-8">
-          <div className="flex items-center space-x-4">
-            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
-              <i className="fas fa-search"></i>
-            </button>
-            <input
-              type="text"
-              className="bg-gray-100 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Search All Category"
-            />
-             <button className="bg-blue-500 text-white font-medium py-2 px-4 rounded-md hover:bg-blue-600">
-               Search
-            </button>
-          </div>
-          <div className="flex items-center space-x-4">
-            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
-              <i className="fas fa-language"></i>
-              EN
-            </button>
-            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
-              <i className="fas fa-ad"></i>
-              Advertise
-            </button>
-            <button className="bg-gray-200 rounded-full px-3 py-1 text-gray-600">
-              <i className="fas fa-list"></i>
-              Business
-              Listing
-            </button>
-          </div>
-        </div>
+      
+    
 
       <div className="mt-20">
       <img
