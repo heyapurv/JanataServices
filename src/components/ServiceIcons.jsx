@@ -37,7 +37,7 @@ const ServiceIcons = () => {
     {
       url: homeservice,
       title: "Home_Service",
-      href: "/homeservice",
+      href: "/homeservices",
     },
     {
       url: transport,
